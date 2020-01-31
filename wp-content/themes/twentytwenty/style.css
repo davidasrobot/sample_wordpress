@@ -1,0 +1,267 @@
+@font-face{
+	font-family: myFont;
+  src: url('http://localhost/wordpress/learning_basic/wp-content/themes/twentytwenty/assets/fonts/fonts.otf');
+}
+.font-1{
+	/* font-family: 'Libre Baskerville', serif !important; */
+	font-family: myFont;
+	font-size: 2.5rem;
+	transition: all .2s;
+}
+.bg-dark{
+	transition: all .3s;
+}
+.font-2{
+	/* font-family: 'Libre Baskerville', sans-serif; */
+	font-family: myFont;
+}
+.font-3{
+	font-family: 'Libre Baskerville', sans-serif;
+	/* font-family: myFont; */
+}
+.font-1-resize{
+	font-family: myFont;
+	font-size: 1.5rem;
+	transition: all .2s;
+}
+.header-font{
+	font-size: 4rem;
+}
+p{
+  font-family: 'Segoe UI', sans-serif;
+}
+.font-size-small{
+	font-size: .9rem;
+	color: white !important;
+	font-weight: 600;
+}
+.pl-4-5{
+	padding-left: 2.5rem !important;
+}
+#search{
+	background-color: rgba(0, 0, 0, .1);
+	height: 1.6rem;
+	font-size: .7rem;
+	width: 13rem;
+	color: white;
+}
+#search::placeholder{
+	color: white;
+	opacity: 1;
+}
+#search:-ms-input-placeholder{
+	color: white;
+}
+#search::-ms-input-placeholder{
+	color: white;
+}
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 24rem;
+	height: .7rem;
+	line-height: .7rem;
+	text-align: right;
+	pointer-events: none;
+}
+.c-container{
+	max-width: 1280px;
+	padding-left: 7rem;
+	padding-right: 2rem;
+}
+.bg-dark{
+	background-color: #131415 !important;
+}
+.carousel-indicators li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border-top: none;
+	border-bottom: none;
+}
+.carousel-indicators .active {
+	width: 50px;
+	border-radius: 14px;
+}
+.carousel-caption{
+	right: none;
+	bottom: 6rem;
+	left: 10rem;
+	text-align: left;
+}
+.top-stripe{
+	width: 200px;
+	background-color:white;
+	display: block;
+	height: 8px;
+}
+#best-seller{
+	padding-top: 6rem;
+}
+.img-thumbnail{
+	padding: 1.25rem;
+	border-radius: 0;
+}
+.caption{
+	font-size: .7rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.content-body-right{
+	position: absolute;
+	top: 7rem;
+	right: 0rem;
+	width: 400px;
+	height: 250px;
+	box-shadow: 5px 5px 19px -5px#b9ccdd;
+}
+.content-body-left{
+	position: absolute;
+	top: 7rem;
+	left: 0rem;
+	width: 400px;
+	height: 250px;
+	box-shadow: 5px 5px 19px -5px#b9ccdd;
+}
+.items{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	color:gray;
+	font-size: .7rem;
+}
+.item-list{
+	padding: 5px 0px 0px 0px;
+}
+p.item-desc{
+	color:gray;
+	font-size: .7rem;
+	padding: 5px 0px 5px 0px;
+}
+.item-link{
+	font-weight: bolder;
+	text-decoration: black underline;
+	color: black;
+	font-size: .8rem;
+	transition: all .5;
+}
+.item-link:hover{
+	color: cornflowerblue;
+}
+#visit-store{
+	background-image: url('http://localhost/wordpress/learning_basic/wp-content/themes/twentytwenty/assets/images/carousel/carousel-2.jpg');
+}
+.py-6{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+.btn-secondary{
+	background-color: white;
+	color: gray;
+	border-color: white;
+	font-weight: bolder;
+}
+.btn-secondary:hover{
+	background-color: white;
+	color: gray;
+}
+.video-wrapper {
+	position: relative;
+}
+
+.video-wrapper > video {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+	display: none;
+}
+
+.video-overlay-play-button {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 10px calc(50% - 50px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 0.95;
+	cursor: pointer;
+	background-image: linear-gradient(transparent, #000);
+	transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+	opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+	display: none;
+}
+.top-left-indicators{
+	top: 4% !important;
+	left: -75% !important;
+}
+.slick-prev::before, .slick-next::before{
+	color: black !important;
+}
+.slick-current > img{
+	width: 220px !important;
+	/* transition: all .3s; */
+	padding-left: auto !important;
+}
+.slick-active > img{
+	width: 180px;
+	transition: all .3s;
+	padding-left: 20px;
+}
+.slick-current{
+	margin: 0px !important;
+}
+.slick-active{
+	margin: 20px auto;
+}
+.slick-prev{
+	top: 110%;
+	left: 23%;
+}
+.slick-next{
+	top: 110%;
+	right: 70%;
+}
+.tr-carousel{
+	top: 55%;
+	left: -25%;
+}
+.mw-125{
+	max-width: 125%;
+}
+.fs-5{
+	font-size: 5rem;
+}
+.blockquote-footer{
+	font-size: 95%;
+}
+.p-7-0{
+	padding: 7rem 0rem;
+}
+.fnav-border{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+.download-store{
+	width: 200px;
+}
+.fc-border{
+	border-bottom: 2px solid white;
+}
+a.white-link{
+	color: white;
+}
+a.white-link:hover{
+	color: gainsboro;
+	transition: opacity .15s;
+}
